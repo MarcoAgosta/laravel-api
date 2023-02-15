@@ -20,5 +20,6 @@ class ProjectController extends Controller
         $project=Project::findOrFail($id);
 
         return response()->json($project);
+        
     }
 }
